@@ -7,8 +7,8 @@ package lsp
 import (
 	"context"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
+	"golang.org/x/tools/pkg/lsp/protocol"
+	"golang.org/x/tools/pkg/lsp/source"
 )
 
 func (s *Server) rename(ctx context.Context, params *protocol.RenameParams) (*protocol.WorkspaceEdit, error) {

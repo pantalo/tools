@@ -10,7 +10,7 @@ import (
 	"path"
 	"testing"
 
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/pkg/span"
 )
 
 var testdata = []struct {

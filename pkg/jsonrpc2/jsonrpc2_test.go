@@ -14,9 +14,9 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/tools/internal/event/export/eventtest"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/stack/stacktest"
+	"golang.org/x/tools/pkg/event/export/eventtest"
+	"golang.org/x/tools/pkg/jsonrpc2"
+	"golang.org/x/tools/pkg/stack/stacktest"
 )
 
 var logRPC = flag.Bool("logrpc", false, "Enable jsonrpc2 communication logging")

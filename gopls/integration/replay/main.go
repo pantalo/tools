@@ -18,9 +18,9 @@ import (
 	"strings"
 
 	"golang.org/x/tools/gopls/integration/parse"
-	"golang.org/x/tools/internal/fakenet"
-	"golang.org/x/tools/internal/jsonrpc2"
-	p "golang.org/x/tools/internal/lsp/protocol"
+	"golang.org/x/tools/pkg/fakenet"
+	"golang.org/x/tools/pkg/jsonrpc2"
+	p "golang.org/x/tools/pkg/lsp/protocol"
 )
 
 var (

@@ -9,10 +9,10 @@ import (
 	"testing"
 
 	"golang.org/x/tools/gopls/internal/hooks"
-	cmdtest "golang.org/x/tools/internal/lsp/cmd/test"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/tests"
-	"golang.org/x/tools/internal/testenv"
+	cmdtest "golang.org/x/tools/pkg/lsp/cmd/test"
+	"golang.org/x/tools/pkg/lsp/source"
+	"golang.org/x/tools/pkg/lsp/tests"
+	"golang.org/x/tools/pkg/testenv"
 )
 
 func TestMain(m *testing.M) {

@@ -2,7 +2,7 @@
 package packagesinternal
 
 import (
-	"golang.org/x/tools/internal/gocommand"
+	"golang.org/x/tools/pkg/gocommand"
 )
 
 var GetForTest = func(p interface{}) string { return "" }

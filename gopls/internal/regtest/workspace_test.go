@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp"
-	"golang.org/x/tools/internal/lsp/fake"
-	"golang.org/x/tools/internal/testenv"
+	"golang.org/x/tools/pkg/lsp"
+	"golang.org/x/tools/pkg/lsp/fake"
+	"golang.org/x/tools/pkg/testenv"
 )
 
 const workspaceProxy = `

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/keys"
+	"golang.org/x/tools/pkg/event"
+	"golang.org/x/tools/pkg/event/keys"
 )
 
 func TestEncodeMetric(t *testing.T) {

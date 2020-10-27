@@ -19,8 +19,8 @@ import (
 	"golang.org/x/tools/go/analysis/passes/inspect"
 	"golang.org/x/tools/go/ast/astutil"
 	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/internal/analysisinternal"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/pkg/analysisinternal"
+	"golang.org/x/tools/pkg/span"
 )
 
 const Doc = `note incomplete struct initializations

@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/internal/jsonrpc2"
+	"golang.org/x/tools/pkg/jsonrpc2"
 )
 
 type loggingStream struct {

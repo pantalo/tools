@@ -1,7 +1,7 @@
 package fillstruct
 
 import (
-	"golang.org/x/tools/internal/lsp/fillstruct/data"
+	"golang.org/x/tools/pkg/lsp/fillstruct/data"
 )
 
 type basicStruct struct {

@@ -8,9 +8,9 @@ import (
 	"io"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/fake"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
+	"golang.org/x/tools/pkg/lsp/fake"
+	"golang.org/x/tools/pkg/lsp/protocol"
+	"golang.org/x/tools/pkg/lsp/source"
 	errors "golang.org/x/xerrors"
 )
 

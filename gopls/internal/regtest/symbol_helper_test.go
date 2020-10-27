@@ -8,8 +8,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"golang.org/x/tools/internal/lsp/fake"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"golang.org/x/tools/pkg/lsp/fake"
+	"golang.org/x/tools/pkg/lsp/protocol"
 )
 
 // expSymbolInformation and the types it references are pointer-based versions

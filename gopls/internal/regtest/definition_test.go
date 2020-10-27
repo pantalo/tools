@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/tests"
+	"golang.org/x/tools/pkg/lsp/tests"
 )
 
 const internalDefinition = `

@@ -16,8 +16,8 @@ import (
 	"os"
 
 	"golang.org/x/tools/gopls/internal/hooks"
-	"golang.org/x/tools/internal/lsp/cmd"
-	"golang.org/x/tools/internal/tool"
+	"golang.org/x/tools/pkg/lsp/cmd"
+	"golang.org/x/tools/pkg/tool"
 )
 
 func main() {

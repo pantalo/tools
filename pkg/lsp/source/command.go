@@ -12,10 +12,10 @@ import (
 	"go/types"
 
 	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/internal/lsp/analysis/fillstruct"
-	"golang.org/x/tools/internal/lsp/analysis/undeclaredname"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/pkg/lsp/analysis/fillstruct"
+	"golang.org/x/tools/pkg/lsp/analysis/undeclaredname"
+	"golang.org/x/tools/pkg/lsp/protocol"
+	"golang.org/x/tools/pkg/span"
 	errors "golang.org/x/xerrors"
 )
 

@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"golang.org/x/tools/pkg/lsp"
+	"golang.org/x/tools/pkg/lsp/cache"
+	"golang.org/x/tools/pkg/lsp/protocol"
 	errors "golang.org/x/xerrors"
 )
 

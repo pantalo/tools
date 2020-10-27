@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"golang.org/x/tools/pkg/lsp/protocol"
 )
 
 func printBenchmarkResults(result testing.BenchmarkResult) {

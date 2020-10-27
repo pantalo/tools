@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/stack"
+	"golang.org/x/tools/pkg/stack"
 )
 
 func TestProcess(t *testing.T) {

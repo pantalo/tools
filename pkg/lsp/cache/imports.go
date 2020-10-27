@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/keys"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/pkg/event"
+	"golang.org/x/tools/pkg/event/keys"
+	"golang.org/x/tools/pkg/imports"
+	"golang.org/x/tools/pkg/lsp/source"
+	"golang.org/x/tools/pkg/span"
 )
 
 type importsState struct {

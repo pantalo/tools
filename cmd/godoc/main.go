@@ -45,7 +45,7 @@ import (
 	"golang.org/x/tools/godoc/vfs/gatefs"
 	"golang.org/x/tools/godoc/vfs/mapfs"
 	"golang.org/x/tools/godoc/vfs/zipfs"
-	"golang.org/x/tools/internal/gocommand"
+	"golang.org/x/tools/pkg/gocommand"
 	"golang.org/x/xerrors"
 )
 

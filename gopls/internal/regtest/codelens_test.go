@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/tests"
-	"golang.org/x/tools/internal/testenv"
+	"golang.org/x/tools/pkg/lsp/protocol"
+	"golang.org/x/tools/pkg/lsp/source"
+	"golang.org/x/tools/pkg/lsp/tests"
+	"golang.org/x/tools/pkg/testenv"
 )
 
 func TestDisablingCodeLens(t *testing.T) {

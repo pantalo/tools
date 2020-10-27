@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/tests"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/pkg/lsp/tests"
+	"golang.org/x/tools/pkg/span"
 )
 
 func (r *runner) SuggestedFix(t *testing.T, spn span.Span, actionKinds []string) {

@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"golang.org/x/tools/pkg/lsp/protocol"
 )
 
 const data = `

@@ -8,7 +8,7 @@ import (
 	"context"
 	"fmt"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"golang.org/x/tools/pkg/lsp/protocol"
 )
 
 // ClientHooks are called to handle the corresponding client LSP method.

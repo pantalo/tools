@@ -13,11 +13,11 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/core"
-	"golang.org/x/tools/internal/event/export"
-	"golang.org/x/tools/internal/event/label"
-	"golang.org/x/tools/internal/lsp/debug/tag"
+	"golang.org/x/tools/pkg/event"
+	"golang.org/x/tools/pkg/event/core"
+	"golang.org/x/tools/pkg/event/export"
+	"golang.org/x/tools/pkg/event/label"
+	"golang.org/x/tools/pkg/lsp/debug/tag"
 )
 
 var rpcTmpl = template.Must(template.Must(baseTemplate.Clone()).Parse(`

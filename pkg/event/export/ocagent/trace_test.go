@@ -9,7 +9,7 @@ import (
 	"errors"
 	"testing"
 
-	"golang.org/x/tools/internal/event"
+	"golang.org/x/tools/pkg/event"
 )
 
 func TestTrace(t *testing.T) {

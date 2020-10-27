@@ -1,5 +1,5 @@
 package one
 
 import (
-	_ "golang.org/x/tools/internal/lsp/circular/double/b"
+	_ "golang.org/x/tools/pkg/lsp/circular/double/b"
 )

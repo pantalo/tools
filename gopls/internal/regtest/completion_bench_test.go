@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/fake"
+	"golang.org/x/tools/pkg/lsp/fake"
 )
 
 // dummyCompletionFunction to test manually configured completion using CLI.

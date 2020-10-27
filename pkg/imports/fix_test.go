@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/gocommand"
+	"golang.org/x/tools/pkg/gocommand"
 )
 
 var testDebug = flag.Bool("debug", false, "enable debug output")

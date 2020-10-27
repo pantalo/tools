@@ -4,7 +4,7 @@
 
 // Package difftest supplies a set of tests that will operate on any
 // implementation of a diff algorithm as exposed by
-// "golang.org/x/tools/internal/lsp/diff"
+// "golang.org/x/tools/pkg/lsp/diff"
 package difftest_test
 
 import (
@@ -15,8 +15,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/diff/difftest"
-	"golang.org/x/tools/internal/testenv"
+	"golang.org/x/tools/pkg/lsp/diff/difftest"
+	"golang.org/x/tools/pkg/testenv"
 )
 
 func TestVerifyUnified(t *testing.T) {

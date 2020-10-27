@@ -10,13 +10,13 @@ import (
 	"go/types"
 	"strings"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/debug/tag"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/snippet"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/pkg/event"
+	"golang.org/x/tools/pkg/imports"
+	"golang.org/x/tools/pkg/lsp/debug/tag"
+	"golang.org/x/tools/pkg/lsp/protocol"
+	"golang.org/x/tools/pkg/lsp/snippet"
+	"golang.org/x/tools/pkg/lsp/source"
+	"golang.org/x/tools/pkg/span"
 	errors "golang.org/x/xerrors"
 )
 

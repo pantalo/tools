@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/diff/myers"
+	"golang.org/x/tools/pkg/lsp/diff"
+	"golang.org/x/tools/pkg/lsp/diff/myers"
 )
 
 func TestImportPrefix(t *testing.T) {

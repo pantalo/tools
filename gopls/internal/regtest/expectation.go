@@ -9,9 +9,9 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/tools/internal/lsp"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/pkg/lsp"
+	"golang.org/x/tools/pkg/lsp/protocol"
+	"golang.org/x/tools/pkg/span"
 )
 
 // An Expectation asserts that the state of the editor at a point in time

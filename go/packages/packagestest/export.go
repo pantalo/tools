@@ -77,8 +77,8 @@ import (
 
 	"golang.org/x/tools/go/expect"
 	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/testenv"
+	"golang.org/x/tools/pkg/span"
+	"golang.org/x/tools/pkg/testenv"
 )
 
 var (

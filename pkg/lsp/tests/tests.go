@@ -26,11 +26,11 @@ import (
 	"golang.org/x/tools/go/expect"
 	"golang.org/x/tools/go/packages"
 	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/source/completion"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/testenv"
+	"golang.org/x/tools/pkg/lsp/protocol"
+	"golang.org/x/tools/pkg/lsp/source"
+	"golang.org/x/tools/pkg/lsp/source/completion"
+	"golang.org/x/tools/pkg/span"
+	"golang.org/x/tools/pkg/testenv"
 	"golang.org/x/tools/txtar"
 )
 
@@ -39,7 +39,7 @@ const (
 	goldenFileSuffix  = ".golden"
 	inFileSuffix      = ".in"
 	summaryFile       = "summary.txt"
-	testModule        = "golang.org/x/tools/internal/lsp"
+	testModule        = "golang.org/x/tools/pkg/lsp"
 )
 
 var UpdateGolden = flag.Bool("golden", false, "Update golden files")

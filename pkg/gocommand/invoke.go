@@ -17,7 +17,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/internal/event"
+	"golang.org/x/tools/pkg/event"
 )
 
 // An Runner will run go command invocations and serialize

@@ -24,7 +24,7 @@ import (
 	"unicode"
 
 	"golang.org/x/tools/go/internal/packagesdriver"
-	"golang.org/x/tools/internal/gocommand"
+	"golang.org/x/tools/pkg/gocommand"
 	"golang.org/x/xerrors"
 )
 

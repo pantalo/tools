@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/testenv"
+	"golang.org/x/tools/pkg/testenv"
 )
 
 // This file contains a test that compiles and runs each program in testdata

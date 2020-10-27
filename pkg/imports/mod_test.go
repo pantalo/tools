@@ -16,10 +16,10 @@ import (
 	"testing"
 
 	"golang.org/x/mod/module"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/gopathwalk"
-	"golang.org/x/tools/internal/proxydir"
-	"golang.org/x/tools/internal/testenv"
+	"golang.org/x/tools/pkg/gocommand"
+	"golang.org/x/tools/pkg/gopathwalk"
+	"golang.org/x/tools/pkg/proxydir"
+	"golang.org/x/tools/pkg/testenv"
 	"golang.org/x/tools/txtar"
 )
 

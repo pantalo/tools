@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/diff/myers"
-	"golang.org/x/tools/internal/lsp/tests"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/pkg/lsp/diff"
+	"golang.org/x/tools/pkg/lsp/diff/myers"
+	"golang.org/x/tools/pkg/lsp/tests"
+	"golang.org/x/tools/pkg/span"
 )
 
 type godefMode int

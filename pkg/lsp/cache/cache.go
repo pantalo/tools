@@ -21,12 +21,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/lsp/debug/tag"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/span"
+	"golang.org/x/tools/pkg/event"
+	"golang.org/x/tools/pkg/gocommand"
+	"golang.org/x/tools/pkg/lsp/debug/tag"
+	"golang.org/x/tools/pkg/lsp/source"
+	"golang.org/x/tools/pkg/memoize"
+	"golang.org/x/tools/pkg/span"
 )
 
 func New(ctx context.Context, options func(*source.Options)) *Cache {

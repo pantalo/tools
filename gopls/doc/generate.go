@@ -15,7 +15,7 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/tools/internal/lsp/source"
+	"golang.org/x/tools/pkg/lsp/source"
 )
 
 func main() {

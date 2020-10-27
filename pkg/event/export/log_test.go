@@ -10,11 +10,11 @@ import (
 	"os"
 	"time"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/core"
-	"golang.org/x/tools/internal/event/export"
-	"golang.org/x/tools/internal/event/keys"
-	"golang.org/x/tools/internal/event/label"
+	"golang.org/x/tools/pkg/event"
+	"golang.org/x/tools/pkg/event/core"
+	"golang.org/x/tools/pkg/event/export"
+	"golang.org/x/tools/pkg/event/keys"
+	"golang.org/x/tools/pkg/event/label"
 )
 
 func ExampleLog() {

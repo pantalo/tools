@@ -21,14 +21,14 @@ import (
 	"time"
 
 	"golang.org/x/tools/gopls/internal/hooks"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/jsonrpc2/servertest"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/fake"
-	"golang.org/x/tools/internal/lsp/lsprpc"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
+	"golang.org/x/tools/pkg/jsonrpc2"
+	"golang.org/x/tools/pkg/jsonrpc2/servertest"
+	"golang.org/x/tools/pkg/lsp/cache"
+	"golang.org/x/tools/pkg/lsp/debug"
+	"golang.org/x/tools/pkg/lsp/fake"
+	"golang.org/x/tools/pkg/lsp/lsprpc"
+	"golang.org/x/tools/pkg/lsp/protocol"
+	"golang.org/x/tools/pkg/lsp/source"
 )
 
 // Mode is a bitmask that defines for which execution modes a test should run.

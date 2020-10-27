@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"golang.org/x/tools/gopls/internal/hooks"
-	"golang.org/x/tools/internal/lsp/diff/difftest"
+	"golang.org/x/tools/pkg/lsp/diff/difftest"
 )
 
 func TestDiff(t *testing.T) {

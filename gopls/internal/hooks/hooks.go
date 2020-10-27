@@ -11,7 +11,7 @@ import (
 	"context"
 	"regexp"
 
-	"golang.org/x/tools/internal/lsp/source"
+	"golang.org/x/tools/pkg/lsp/source"
 	"mvdan.cc/gofumpt/format"
 	"mvdan.cc/xurls/v2"
 )

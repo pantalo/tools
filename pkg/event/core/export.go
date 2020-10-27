@@ -10,7 +10,7 @@ import (
 	"time"
 	"unsafe"
 
-	"golang.org/x/tools/internal/event/label"
+	"golang.org/x/tools/pkg/event/label"
 )
 
 // Exporter is a function that handles events.

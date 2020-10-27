@@ -7,9 +7,9 @@ package export
 import (
 	"io"
 
-	"golang.org/x/tools/internal/event/core"
-	"golang.org/x/tools/internal/event/keys"
-	"golang.org/x/tools/internal/event/label"
+	"golang.org/x/tools/pkg/event/core"
+	"golang.org/x/tools/pkg/event/keys"
+	"golang.org/x/tools/pkg/event/label"
 )
 
 type Printer struct {

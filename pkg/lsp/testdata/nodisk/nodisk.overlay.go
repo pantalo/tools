@@ -1,7 +1,7 @@
 package nodisk
 
 import (
-	"golang.org/x/tools/internal/lsp/foo"
+	"golang.org/x/tools/pkg/lsp/foo"
 )
 
 func _() {

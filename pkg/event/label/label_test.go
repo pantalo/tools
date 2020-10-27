@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"testing"
 
-	"golang.org/x/tools/internal/event/keys"
-	"golang.org/x/tools/internal/event/label"
+	"golang.org/x/tools/pkg/event/keys"
+	"golang.org/x/tools/pkg/event/label"
 )
 
 var (
