@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/gopls/internal/hooks"
+	"golang.org/x/tools/gopls/pkg/hooks"
 	"golang.org/x/tools/pkg/jsonrpc2"
 	"golang.org/x/tools/pkg/jsonrpc2/servertest"
 	"golang.org/x/tools/pkg/lsp/cache"

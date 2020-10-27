@@ -15,7 +15,7 @@ import (
 	"context"
 	"os"
 
-	"golang.org/x/tools/gopls/internal/hooks"
+	"golang.org/x/tools/gopls/pkg/hooks"
 	"golang.org/x/tools/pkg/lsp/cmd"
 	"golang.org/x/tools/pkg/tool"
 )

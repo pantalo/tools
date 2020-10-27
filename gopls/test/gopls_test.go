@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/hooks"
+	"golang.org/x/tools/gopls/pkg/hooks"
 	cmdtest "golang.org/x/tools/pkg/lsp/cmd/test"
 	"golang.org/x/tools/pkg/lsp/source"
 	"golang.org/x/tools/pkg/lsp/tests"
